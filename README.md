@@ -124,3 +124,9 @@ curl -X 'PUT' \
   "text": "nowa treść wiadomości"
 }'
  ```
+#### W przypadku niepoprawnego użycia któregokolwiek z endpointów zostanie zwrócony kod błedu klienta zaczynający się od 4.. (numery kodów wymienione w tabelkach) wraz z krótkim opisem błędu w postaci JSON np. dla 401:
+```
+{
+  "detail": "Unauthorized"
+}
+```
